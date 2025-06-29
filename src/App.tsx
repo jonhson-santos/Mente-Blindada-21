@@ -10,8 +10,8 @@ import { AlertTriangle, Crown, Siren as Fire, Shield, Star } from 'lucide-react'
 
 function App() {
   const handleCTAClick = () => {
-    // Redirect to payment processor
-    window.open('https://app.pushinpay.com.br/service/pay/9f43faa5-88b5-46a3-85df-6d21a0afa923', '_blank');
+    // Redirect to new checkout page
+    window.open('https://checkout-97.vercel.app/', '_blank');
   };
 
   return (
